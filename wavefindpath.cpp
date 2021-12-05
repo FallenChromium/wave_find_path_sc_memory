@@ -326,7 +326,7 @@ ScAddr find_min_path (const std::unique_ptr<ScMemoryContext>& context, ScAddr be
         }
     }
 
-    // Создаём арес новой волны
+    // Создаём адрес новой волны
     ScAddr new_wave = context->CreateNode(ScType::Const);
     // Добавляем начальную вершину в новую волну
     context->CreateEdge(ScType::EdgeAccessConstPosPerm, new_wave, beg_vertex);
