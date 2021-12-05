@@ -152,7 +152,7 @@ void print_graph (const std::unique_ptr<ScMemoryContext>& context)
             //Проверяем, напечатана ли рассматриваемая вершина 
             find = find_vertex_in_set(context,t_node, printed_vertex);
 
-            // Если дуги не были напечатаны, то печатаем их
+            // Если вершина не была напечатана, то печатаем её
             if (!find)
             {
                 printEl(context, t_node);
