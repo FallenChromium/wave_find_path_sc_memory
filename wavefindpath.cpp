@@ -149,7 +149,7 @@ void print_graph (const std::unique_ptr<ScMemoryContext>& context)
         while (nodes_it->Next())
         {
             ScAddr t_node = nodes_it->Get(2);
-
+            //Проверяем, напечатана ли рассматриваемая вершина 
             find = find_vertex_in_set(context,t_node, printed_vertex);
 
             // Если дуги не были напечатаны, то печатаем их
