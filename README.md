@@ -157,20 +157,7 @@ G0 -> rrel_arcs: ..arcs;
 
  1. #### Основные типы элементов
 
-| Название | Название в C++ | Аналог в SCg |
-| :------: | :------------: | :----------: |
-| Константный sc-узел | ScType::Const | ![](/docs/const_node.png) |
-| Переменный sc-узел | ScType::NodeVar | ![](/docs/var_node.png) |
-| Константное ролевое sc-отношение | ScType::NodeConstRole | ![](/docs/node_const_role.png) |
-| Константное неролевое sc-отношение | ScType::NodeConstNorole | ![](/docs/node_const_norole.png) |
-| Константный sc-класс | ScType::NodeConstClass | ![](/docs/node_const_class.png) |
-| Константный sc-кортеж | ScType::NodeConstTuple | ![](/docs/node_const_tuple.png) |
-| Константная позитивная sc-дуга принадлежности | ScType::EdgeAccessConstPosPerm | ![](/docs/edge_const_pos_perm.png) |
-| Переменная позитивная sc-дуга принадлежности | ScType::EdgeAccessVarPosPerm | ![](/docs/edge_var_pos_perm.png) |
-| Константное неориентированное sc-ребро общего вида | ScType::EdgeUCommonConst | ![](/docs/edge_const_common.png) |
-| Константное ориентированное sc-ребро общего вида | ScType::EdgeDCommonConst | ![](/docs/edge_const_common_orient.png) |
-| Переменное неориентированное sc-ребро общего вида | ScType::EdgeUCommonVar | ![](/docs/edge_var_common.png) |
-| Переменное ориентированное sc-ребро общего вида | ScType::EdgeDCommonVar | ![](/docs/edge_var_common_orient.png) |
+	Основные типы используемых элементов могут быть найдены в официальной документации по [ссылке](https://ostis-dev.github.io/sc-machine/cpp/el_types/)
 
 2. #### Основные функции для работы с sc-памятью:
 
